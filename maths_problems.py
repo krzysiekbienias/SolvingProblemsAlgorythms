@@ -13,6 +13,7 @@ class Solution():
                         result[i][k] = 1
                     else:
                         result[i][k] = result[i - 1][k - 1] + result[i - 1][k]
+                        y=sum([2,3])
             return result
 
 
@@ -138,4 +139,5 @@ if __name__ == "__main__":
     i_missing_numb=o_solution.missing_number(nums=[9,6,4,2,3,5,7,0,1])
     erastosthenes=o_solution.count_primes(10)
     set_mismatch=o_solution.find_duplicated_number(nums=[2,2])
+
     print('The End')

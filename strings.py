@@ -174,6 +174,7 @@ class Solution():
 
         l_jewelery=[S.count(i) for i in J]
 
+
         return l_jewelery
 
 
